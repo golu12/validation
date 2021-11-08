@@ -23,7 +23,7 @@ select * from records_mapper
 
 Query 2nd :
 This table gives you duplicate reference Id records
- select * from duplicateRefernece;
+select * from duplicateRefernece;
  
 Query 3rd:
 
