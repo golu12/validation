@@ -59,16 +59,6 @@ public class SrcServiceConf {
 
     }
 
-    private List<SrcFileConfigurationBean> createOrderOflist(List<SrcFileConfigurationBean> lstConfigurationBeans) {
-        for(int i = 0; i< lstConfigurationBeans.size() ;i++){
-            String[] subString = lstConfigurationBeans.get(i).getFileName().split("/");
-            if(!subString[0].equals("airports.csv"));{
-                Collections.reverse(lstConfigurationBeans);
-                break;
-            }
-        }
-        return lstConfigurationBeans;
-    }
 
 
     /**
